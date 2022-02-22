@@ -30,6 +30,8 @@
         "postcss-import": "^14.0.2",
         "vue-multilanguage": "^4.0.18",
         "nightwind": "^1.1.12",
-        "vue-animate-scroll": "^0.1.5"
+        "vue-animate-scroll": "^0.1.5",
+        "inputmask": "^5.0.7"
+
     }
 }

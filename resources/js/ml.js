@@ -1,21 +1,46 @@
 import Vue from 'vue'
-import { MLInstaller, MLCreate, MLanguage } from 'vue-multilanguage'
+import {MLInstaller, MLCreate, MLanguage} from 'vue-multilanguage'
 
 Vue.use(MLInstaller)
 
 export default new MLCreate({
-  initial: 'ru',
-  languages: [
-    new MLanguage('ru').create({
-        dark_mode_toggle: 'Переключить тему',
+    initial: 'ru',
+    languages: [
+        new MLanguage('ru').create({
+            dark_mode_toggle: 'Переключить тему',
+            lead_h: 'Оставьте контактный номер',
+            lead_d: 'И наш специалист свяжется с Вами',
+            you_name: 'Ваше имя',
+            name: 'Имя',
+            enter_name: 'укажите имя',
+            phone: 'Номер телефона',
+            enter_phone: 'введите действительный номер телефона',
+            fill_form: 'заполните форму',
+            continue: 'продолжить',
+            phone_secure: 'мы никогда не передадим Ваш номер телефона третьим лицам',
+            lead_success: 'Готово',
+            lead_success_d: 'Номер телефона успешно отправлен, ☎️ ожидайте звонка!',
+            back_to_site: 'Вернутся к просмотру сайта',
 
+        }),
 
-    }),
+        new MLanguage('uk').create({
+            dark_mode_toggle: 'Переключити тему',
+            lead_h: 'Залишіть контактний номер',
+            lead_d: 'І наш спеціаліст зв\'яжеться з Вами',
+            you_name: 'Ваше ім\'я',
+            name: 'Ім\'я',
+            enter_name: 'вкажіть ім\'я',
+            phone: 'Номер телефону',
+            enter_phone: 'введіть дійсний номер телефону',
+            fill_form: 'заповніть форму',
+            continue: 'продовжити',
+            phone_secure: 'ми ніколи не передамо Ваш номер телефону третім особам',
+            lead_success: 'Готово',
+            lead_success_d: 'Номер телефону успішно відправлений, ☎️ очікуйте на дзвінок!',
+            back_to_site: 'Повернутись до перегляду сайту',
 
-    new MLanguage('uk').create({
-        dark_mode_toggle: 'Переключити тему',
+        }),
 
-    }),
-
-  ]
+    ]
 })

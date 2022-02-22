@@ -23,7 +23,8 @@ module.exports = {
 
             colors: {
                 'primary': '#337ab7',
-                'theme-color': '#337ab7',
+                'theme-color': '#0055b8',
+                // 'theme-color': '#337ab7',
                 'theme-color-2': '#FFCF3A'
             }
         },
